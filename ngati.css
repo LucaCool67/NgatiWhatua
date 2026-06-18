@@ -3,6 +3,17 @@ body{
     background-color: hsl(0, 0%, 90%);
 }
 .NgatiWhatuaDiv{
-    background-color: aliceblue;
-    background-image: ;
+    background-image: url(images/NgatiWhatuaImage.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-filter: blur(0.5px); 
+    -moz-filter: blur(0.5px); 
+    -o-filter: blur(0.5px);
+    -ms-filter: blur(0.5px);
+    filter: blur(0.5px);
 }
