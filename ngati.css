@@ -4,15 +4,20 @@ body{
     gap: 10px;
     margin: 10px;
 }
-.nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: hsl(0, 0%, 80%);
-  border-radius: 8px;
-  padding: 1rem 2rem;
-  font-size: 1.25rem;
-  background-image: url(images/navbar.jpg);
+#nav{
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 8px;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    position: sticky; 
+    top: 0;        
+    z-index: 1000; 
+    background-image: url(images/navbar.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,10 +30,15 @@ body{
     -o-filter: blur(0.5px);
     -ms-filter: blur(0.5px);
     filter: blur(0.5px);
-    padding: 10px;
+    padding: 10px;  
+    transition: top 0.7s;
+ 
 }
 
-.NgatiWhatuaDiv{
+
+#NgatiWhatuaDiv{
+    color: black;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
     background-image: url(images/NgatiWhatuaImage.jpg);
     background-size: cover;
     background-position: center;
@@ -45,7 +55,7 @@ body{
     padding: 10px;
 }
 
-.whyHistory{
+#whyHistory{
     background-image: url(images/onetreehillbg.webp);
     background-size: cover;
     background-position: center;
@@ -61,8 +71,25 @@ body{
     filter: blur(0.5px);
 }
 
-.Pakeha{
+#Pakeha{
     background-image: url(images/pakehaImg.webp);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 8px;
+    -webkit-filter: blur(0.5px); 
+    -moz-filter: blur(0.5px); 
+    -o-filter: blur(0.5px);
+    -ms-filter: blur(0.5px);
+    filter: blur(0.5px);
+}
+
+#references{
+    background-image: url(images/references.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
